@@ -5,9 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p className="Page-intro">
-          To get started, edit things and save to reload.
-        </p>
+        This is basic info about the event.
       </div>
     );
   }
