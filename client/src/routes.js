@@ -5,6 +5,7 @@ import CallForParticipation from './Pages/CallForParticipation/CallForParticipat
 import Conference from './Pages/Conference/Conference';
 import Competition from './Pages/Competition/Competition';
 import Logistics from './Pages/Logistics/Logistics';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 export const Main = () => (
 	<main>
@@ -15,6 +16,7 @@ export const Main = () => (
 			<Route exact path='/conference' component={Conference} />
 			<Route exact path='/competition' component={Competition} />
 			<Route exact path='/logistics' component={Logistics} />
+			<Route exact path='/contactus' component={ContactUs} />
 		</Switch>
 	</main>
 )
