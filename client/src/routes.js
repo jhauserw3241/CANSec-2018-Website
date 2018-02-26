@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Archive from './Pages/Archive/Archive';
 import CallForParticipation from './Pages/CallForParticipation/CallForParticipation';
+import Submission from './Pages/Submission/Submission';
 import Conference from './Pages/Conference/Conference';
 import Competition from './Pages/Competition/Competition';
 import Logistics from './Pages/Logistics/Logistics';
@@ -15,6 +16,7 @@ export const Main = () => (
 			<Route exact path='/home' component={Home} />
 			<Route exact path='/home/archive' component={Archive} />
 			<Route exact path='/callforparticipation' component={CallForParticipation} />
+			<Route exact path='/callforparticipation/submission' component={Submission} />
 			<Route exact path='/conference' component={Conference} />
 			<Route exact path='/competition' component={Competition} />
 			<Route exact path='/logistics' component={Logistics} />
