@@ -10,6 +10,7 @@ import Keynotes from './Pages/Keynotes/Keynotes';
 import InvitedTalks from './Pages/InvitedTalks/InvitedTalks';
 import Competition from './Pages/Competition/Competition';
 import Logistics from './Pages/Logistics/Logistics';
+import Registration from './Pages/Registration/Registration';
 import ContactUs from './Pages/ContactUs/ContactUs';
 
 export const Main = () => (
@@ -26,6 +27,7 @@ export const Main = () => (
 			<Route exact path='/conference/invitedtalks' component={InvitedTalks} />
 			<Route exact path='/competition' component={Competition} />
 			<Route exact path='/logistics' component={Logistics} />
+			<Route exact path='/logistics/registration' component={Registration} />
 			<Route exact path='/contactus' component={ContactUs} />
 		</Switch>
 	</main>
