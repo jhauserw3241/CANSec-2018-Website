@@ -11,6 +11,7 @@ import InvitedTalks from './Pages/InvitedTalks/InvitedTalks';
 import Competition from './Pages/Competition/Competition';
 import Logistics from './Pages/Logistics/Logistics';
 import Registration from './Pages/Registration/Registration';
+import PosterInstructions from './Pages/PosterInstructions/PosterInstructions';
 import ContactUs from './Pages/ContactUs/ContactUs';
 
 export const Main = () => (
@@ -28,6 +29,7 @@ export const Main = () => (
 			<Route exact path='/competition' component={Competition} />
 			<Route exact path='/logistics' component={Logistics} />
 			<Route exact path='/logistics/registration' component={Registration} />
+			<Route exact path='/logistics/posterinstructions' component={PosterInstructions} />
 			<Route exact path='/contactus' component={ContactUs} />
 		</Switch>
 	</main>
