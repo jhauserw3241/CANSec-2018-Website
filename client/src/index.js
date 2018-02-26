@@ -1,8 +1,27 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { render } from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
+import { HashRouter } from 'react-router-dom';
+import Header from './Pages/Header';
+import { Main } from './routes';
+import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './CSS/Page.css';
+import './CSS/index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => (
+	<div>
+		<Header />
+		<Main />
+	</div>
+)
+
+render((
+	<HashRouter>
+		<div>
+			<App />
+		</div>
+	</HashRouter>),
+	document.getElementById('root')
+);
+
 registerServiceWorker();
