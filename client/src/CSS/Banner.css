@@ -1,0 +1,25 @@
+@import "Colors.css";
+
+.Banner {
+    background-color: var(--header-purple);
+    display: flex;
+}
+
+.img-sec {
+    width: 49.5%;
+}
+
+.banner-img {
+    width: 537px;
+    height: 250px;
+    float: right;
+}
+
+.banner-median {
+    width: 1%;
+}
+
+.banner-txt {
+    width: 49.5%;
+    color: white;
+}
