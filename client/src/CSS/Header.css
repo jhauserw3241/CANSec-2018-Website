@@ -1,69 +1,10 @@
 @import "Colors.css";
 
-/*.Header {
-  text-align: center;
-}
-
-.Header-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.Header-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.Header-title {
-  font-size: 1.5em;
-}
-
-@keyframes Header-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
-
 .Header {
-	background-color: var(--dark-gray);
-	border-color: var(--dark-gray);
-	color: white;
+  background-color: var(--header-purple);
+	border-radius: 0px !important;
 }
 
-.navbar-header {
-	padding: 10px;
-}
-
-.Header-logo {
-	font-size: large;
-	display: inline-block;
-}
-
-.nav-body {
-	float: right;
-}
-
-.nav-link {
-	color: white;
-	padding: 2.35em !important;
-	display: inline-block !important;
-	text-decoration: none;
-}
-
-.nav-link:hover {
-	color: white;
-	background-color: black;
-}
-
-.Logo-img {
-  height: 80px;
-  margin: 10px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+ul.navbar-nav {
+  float: right;
 }
